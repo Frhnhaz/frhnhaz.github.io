@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <title>Tata Surya</title>
+    <style>
+        @font-face {
+            font-family:'Voyager' ;
+            src: url(Voyager\ Light.otf);
+        }
+        h1, h2, .home, nav{
+            font-family: 'Voyager';
+        }
+        header, nav, .home, section{
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="w3-black w3-container">
+    <header class="w3-container Judul">
+        <h1>Tata Surya</h1>
+    </header>
+    <nav class="w3-container">
+        <button class="w3-btn" onclick="openMenu('matahari')">Matahari</button>
+        <button class="w3-btn" onclick="openMenu('merkurius')">Merkurius</button>
+        <button class="w3-btn" onclick="openMenu('venus')">Venus</button>
+        <button class="w3-btn" onclick="openMenu('bumi')">Bumi</button>
+        <button class="w3-btn" onclick="openMenu('mars')">Mars</button>
+        <button class="w3-btn" onclick="openMenu('jupiter')">Jupiter</button>
+        <button class="w3-btn" onclick="openMenu('saturnus')">Saturnus</button>
+        <button class="w3-btn" onclick="openMenu('uranus')">Uranus</button>
+        <button class="w3-btn" onclick="openMenu('neptunus')">Neptunus</button>
+    </nav>
+    <hr>
+    <section id="matahari" class="w3-container TS" style="display: block;">
+        <h2>Matahari</h2>
+        <img src="sun.png" alt="sun" width="50%">
+        <p>Nama: Matahari/Mentari/Surya/Sun/Sol/Helios</p>
+        <p>Radius: 696.340 km</p>
+        <p>Massa: 2x10^30 kg (330,000x massa bumi)</p>
+        <p>Umur: ~4.6 miliar tahun</p>
+        <p>Tipe: Katai kuning</p><br>
+        <p>Bola plasma berpijar yang menjadi pusat tata surya kita. Matahari adalah benda langit
+        terbesar yang ada di tata surya. Saking besarnya, matahari dapat menampung 1,6 juta Bumi
+        di dalamnya. Semua benda langit di sistem tata surya beredar mengelilinginya
+        karena gravitasinya yang sangat kuat. Matahari sangatlah penting bagi kehidupan Bumi,
+        karena cahaya dan energi yang dipancarkannya dibutuhkan bagi semua makhluk hidup di Bumi.</p>
+      </section>
+      <section id="merkurius" class="w3-container TS" style="display: none;"> 
+        <h2>Merkurius</h2>
+        <img src="mercury.png" alt="merkurius" width="25%">
+        <p>Nama: Merkurius/Utarid</p>
+        <p>Radius: 2.439 km</p>
+        <p>Massa: 3,3022x10^23 kg (0,055x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 57 juta km (0,4 AU)</p>
+        <p>Lama 1 Tahun: 88 hari Bumi</p>
+        <p>Lama 1 hari: 176 hari Bumi</p>
+        <p>Satelit alami: 0</p>
+        <p>Tipe: Terestrial/berbatu</p><br>
+        <p>Planet terkecil di tata surya dan yang tercepat, Planet ini adalah planet terdekat dari
+        Matahari. Ukuran planet ini hanya sedikit lebih besar dari Bulan. Atmosfer Merkurius
+        sangatlah tipis, sehingga perbedaan suhu siang dan malamnya sangat signifikan. Di siang
+        hari, suhu merkurius bisa mencapai 430°C, dan di malam hari bisa mencapai -180°C.</p>
+      </section>
+      <section id="venus" class="w3-container TS" style="display: none;">
+        <h2>Venus</h2>
+        <img src="venus.png" alt="venus" width="30%">
+        <p>Nama: Venus/Zohrah/Bintang Kejora</p>
+        <p>Radius: 6.051 km</p>
+        <p>Massa: 4,8676x10^24 kg (0,866x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 108 juta km (0,72 AU)</p>
+        <p>Lama 1 Tahun: 224,7 hari Bumi</p>
+        <p>Lama 1 hari: 243 hari Bumi</p>
+        <p>Satelit alami: 0</p>
+        <p>Tipe: Terestrial/berbatu</p><br>
+        <p>Planet terdekat kedua dari Matahari. Venus mendapat julukan Bintang Kejora atau
+        Bintang Fajar/Senja karena jika dilihat dari Bumi, Venus akan tampak terang seperti 
+        bintang di ufuk barat atau timur. Venus merupakan planet terpanas di tata surya. 
+        Atmosfer Venus sangatlah tebal, sehingga panas matahari menjadi 
+        terperangkap dan mengakibatkan permukaan Venus menjadi sangat panas (475°C.).</p>
+      </section>
+      <section id="bumi" class="w3-container TS" style="display: none;">
+        <h2>Bumi</h2>
+        <img src="earth.png" alt="bumi" width="70%">
+        <p>Nama: Bumi/Earth/Gaia/Terra/Tellus</p>
+        <p>Radius: 6.371 km</p>
+        <p>Massa: 5,974x10^24 kg</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 150 juta km (1 AU)</p>
+        <p>Lama 1 Tahun: 364,5 hari</p>
+        <p>Lama 1 hari: 24 jam</p>
+        <p>Satelit alami: 1</p>
+        <p>Tipe: Terestrial/berbatu</p><br>
+        <p>Planet tempat rumah kita berada. Bumi adalah planet ke tiga terdekat dari Matahari. 
+        Jaraknya yang aman, tidak terlalu jauh dan tidak terlalu dekat, menjadikannya tempat yang
+        cocok untuk kehidupan. Jika dilihat dari luar angkasa, Bumi akan tampak kebiruan.
+        70% permukaan Bumi tertutup air. Bumi memiliki satu satelit alami yang diberi 
+        nama Bulan</p>
+      </section>
+      <section id="mars" class="w3-container TS" style="display: none;">
+        <h2>Mars</h2>
+        <img src="mars-18136.png" alt="mars" width="35%">
+        <p>Nama: Mars/Marikh/Anggaraka</p>
+        <p>Radius: 3.390 km</p>
+        <p>Massa: 6,4185x10^23 kg (0,107x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 228 juta km (1 AU)</p>
+        <p>Lama 1 Tahun: 687 hari Bumi</p>
+        <p>Lama 1 hari: 24,6 jam</p>
+        <p>Satelit alami: 2</p>
+        <p>Tipe: Terestrial/berbatu</p><br>
+        <p>Dikenal juga sebagai planet merah, Mars adalah planet keempat terdekat dari Matahari.
+        Mars memiliki dua satelit alami, yaitu Phobos dan Deimos. Mars terlihat berwarna 
+        kemerahan karena keberadaan besi(III) oksida di permukaannya. Lingkungan Mars lebih
+        bersahabat bagi kehidupan dibandingkan Venus, tetapi masih belum cukup ideal bagi manusia.
+        Penghuni Mars saat ini adalah robot bernama Perseverance yang bertugas untuk mengumpulkan
+        data-data permukaan Mars.</p>
+      </section>
+      <section id="jupiter" class="w3-container TS" style="display: none;">
+        <h2>Jupiter</h2>
+        <img src="Jupiter-PNG-Picture.png" alt="jupiter" width="50%">
+        <p>Nama: Jupiter/Musytari</p>
+        <p>Radius: 69.911 km</p>
+        <p>Massa: 1,8986x10^27 kg (317x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 463 juta km (5,1 AU)</p>
+        <p>Lama 1 Tahun: 11 tahun Bumi</p>
+        <p>Lama 1 hari: 9,93 jam Bumi</p>
+        <p>Satelit alami: 80</p>
+        <p>Tipe: Gas giant/raksasa gas</p><br>
+        <p>Planet terbesar di tata surya. Sebagai planet gas, Jupiter tidak memiliki permukaan
+          yang solid. Jika diamati, di atmosfer Jupiter terlihat pola-pola indah yang sebenarnya
+          adalah badai. Ada satu badai yang menjadi ciri khas Jupiter, badai ini bernama Great Red
+          Spot. Great Red Spot dapat dilihat menggunakan teropong dan ukuran badai ini lebih besar dari
+          Bumi. Jupiter punya 4 satelit terbesar, yaitu Io, ganymede, Europa, dan Callisto.
+        </p>
+      </section>
+      <section id="saturnus" class="w3-container TS" style="display: none;">
+        <h2>Saturnus</h2>
+        <img src="saturn.png" alt="saturnus" width="65%">
+        <p>Nama: Saturnus/Zohal</p>
+        <p>Radius: 58.232 km</p>
+        <p>Massa: 5,6834x10^26 kg (95x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 1,4 miliar km (9,5 AU)</p>
+        <p>Lama 1 Tahun: 29 tahun Bumi</p>
+        <p>Lama 1 hari: 10,7 jam Bumi</p>
+        <p>Satelit alami: 83</p>
+        <p>Tipe: Gas giant/raksasa gas</p><br>
+        <p>Planet terbesar kedua di tata surya. Terkenal karena cincinnya yang indah yang
+          terbuat dari batuan es dan debu. Saturnus memiliki pola atmosfer yang hampir mirip dengan
+          tetangganya, Jupiter. Satelit Saturnus yang paling terkenal adalah Titan.</p>
+      </section>
+      <section id="uranus" class="w3-container TS" style="display: none;">
+        <h2>Uranus</h2>
+        <img src="uranus.png" alt="uranus" width="50%">
+        <p>Nama: Uranus</p>
+        <p>Radius: 25.362 km</p>
+        <p>Massa: (8,6810 ± 0,0013)x10^25 kg (14x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 1,8 miliar km (19,8 AU)</p>
+        <p>Lama 1 Tahun: 84 tahun Bumi</p>
+        <p>Lama 1 hari: 17 jam Bumi</p>
+        <p>Satelit alami: 27</p>
+        <p>Tipe: Ice Giant/Raksasa Es</p><br>
+        <p>Uranus merupakan planet terdingin di tata surya. Planet ini juga memiliki 
+        cincin seperti Saturnus, tetapi lebih redup. Uranus tak memiliki permukaan yang solid
+        sama seperti Jupiter, tapi permukaannya mengandung lebih banyak "es" seperti air, ammonia, dan metana. 
+        Inilah kenapa Uranus dan Neptunus dikategorikan sebagai Ice Giant dan bukan Gas Giant seperti Jupiter.
+        Uranus memiliki keunikan, yaitu rotasinya yang memiliki
+        kemiringan 97 derajat, membuatnya terlihat seperti menggelinding ketika
+        mengitari Matahari. 5 satelit utama Uranus adalah Miranda, Ariel, Umbriel, 
+        Titania, dan Oberon.</p>
+      </section>
+      <section id="neptunus" class="w3-container TS" style="display: none;">
+        <h2>Neptunus</h2>
+        <img src="neptune.png" alt="neptunes" width="50%">
+        <p>Nama: Neptunus</p>
+        <p>Radius: 24.622 km</p>
+        <p>Massa: 1,024x10^26 kg (17x massa Bumi)</p>
+        <p>Umur: ~4,5 miliar tahun</p>
+        <p>Jarak ke Matahari: 4,8 miliar km (30 AU)</p>
+        <p>Lama 1 Tahun: 165 tahun Bumi</p>
+        <p>Lama 1 hari: 16 hari Bumi</p>
+        <p>Satelit alami: 14</p>
+        <p>Tipe: Ice giant/raksasa es</p><br>
+        <p>Planet terjauh dari Matahari. Sama seperti Uranus, Neptunus tak mempunyai
+        permukaan yang solid, hanya lautan cairan seperti air, metana, dan amonia. Neptunus
+        sulit dilihat di langit dan ditemukan pertama kali dengan menggunakan perhitungan matematika.
+        . Satelit terbesar Neptunus bernama Triton.
+        </p>
+      </section>
+
+      <!-- tata surya = TS -->
+      <script>
+        function openMenu(TS) {
+            var i;
+            var x = document.getElementsByClassName("TS");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(TS).style.display = "block";
+        }          
+      </script>
+</body>
+</html>
